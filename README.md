@@ -1,3 +1,25 @@
+# Firebase Deployment Steps
+
+1. --> npm install firebase-tools -g
+2. --> firebase login
+3. --> npm run build
+4. --> firebase init 
+	Are you proceed - Yes 
+	Select Hosting 
+	
+	Project Setup
+	Please select an option: Use an existing project
+
+	Hosting Setup
+	What do you want to use as your public directory? build
+	Configure as a single-page app (rewrite all urls to /index.html)? (y/N) y
+	Set up automatic builds and deploys with GitHub? (y/N) N
+	File build/index.html already exists. Overwrite? No	
+
+5. --> firebase deploy
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
